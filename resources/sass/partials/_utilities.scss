@@ -1,0 +1,16 @@
+/* UTILITIES */
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/* Flex */
+.flex{
+    display: flex;
+}
+.jc-center{
+    justify-content: center;
+}
+.ai-center{
+    align-items: center;
+}
