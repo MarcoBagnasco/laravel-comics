@@ -1,0 +1,23 @@
+.news-main{
+    height: 100%;
+    background-image: url('../images/dc-news.jpg');
+
+    .container{
+        height: 100%;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+
+        .news-title{
+            margin-bottom: 2.5rem;
+            color: $brand-color;
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        p{
+            margin-bottom: 1.8rem;
+            text-transform: none;
+            font-size: 1.5rem;
+        }
+    }
+}

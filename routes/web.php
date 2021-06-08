@@ -13,8 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// HOME
 Route::get('/', function () {
-
     $comics = config('comics');
     return view('home', ['comics' => $comics]);
 })->name('home');
+
+// NEWS
+Route::get('/news', function () {
+    return view('news');
+})->name('news');
