@@ -14,6 +14,12 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-        <h1>DC COMICS</h1>
+        
+        <main>
+            @yield('content')
+        </main>
+
+        <!-- JAVASCRIPT -->
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
