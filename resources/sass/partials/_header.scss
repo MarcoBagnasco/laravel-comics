@@ -1,0 +1,32 @@
+/* HEADER */
+.main-header{
+    background-color: #fff;
+    
+    img{
+        height: 80px;
+        margin: 10px;
+    }
+
+    .header-nav{
+        margin-left: 40px;
+
+        li{
+            margin: 0 20px;
+            border-bottom: 2px solid transparent;
+
+            a{
+                color: $secondary-color;
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+            &.active,
+            &:hover{
+                border-bottom: 2px solid $brand-color;
+                a{
+                    color: $brand-color;
+                }
+            }
+        }
+    }
+}
