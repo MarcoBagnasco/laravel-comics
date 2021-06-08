@@ -14,12 +14,15 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-        <!-- MAIN HEADER -->
-        @include('partials.header')
-        
-        <main>
-            @yield('content')
-        </main>
-
+        <div class="app-wrap">
+            <!-- MAIN HEADER -->
+            @include('partials.header')
+            
+            <main class="grow">
+                @yield('content')
+            </main>
+            <!-- MAIN FOOTER -->
+            @include('partials.footer')
+        </div>
     </body>
 </html>

@@ -2,6 +2,7 @@
     <div class="container flex">
         <img src="{{ asset('images/dc-logo.png') }}" alt="logo dc">
 
+        <!-- Header Nav -->
         <nav class="header-nav flex">
             <ul class="list-inline">
                 <li class="flex ai-center active"><a href="">comics</a></li>

@@ -1,4 +1,10 @@
 /* UTILITIES */
+/* Containers */
+.app-wrap{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .container{
     max-width: 1250px;
     margin: 0 auto;
@@ -11,8 +17,14 @@
 .jc-center{
     justify-content: center;
 }
+.jc-between{
+    justify-content: space-between;
+}
 .ai-center{
     align-items: center;
+}
+.grow{
+    flex-grow: 1;
 }
 
 /* List */
