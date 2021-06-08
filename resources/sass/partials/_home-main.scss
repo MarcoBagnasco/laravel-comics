@@ -1,0 +1,33 @@
+/* HOME MAIN */
+.home-main{
+    height: 100%;
+    padding-top: 70px;
+    background-color: $bg-color;
+
+    .container{
+        flex-direction: column;
+    }
+    .comics{
+        flex-wrap: wrap;
+
+        .card{
+            width: calc(100% / 6);
+            padding: 14px;
+    
+            .comic-title{
+                margin-top: 1.3rem;
+                margin-bottom: 2rem;
+                font-family: $secondary-font;
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    .load{
+        padding: 10px 60px;
+        margin-bottom: 1.1rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        background-color: $brand-color;
+    }
+}

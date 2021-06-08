@@ -8,7 +8,6 @@
 }
 
 body {
-  background-color: #1c1c1c;
   color: #fff;
   text-transform: uppercase;
 }
@@ -105,4 +104,34 @@ img {
   margin-right: 10px;
   font-size: 1.3rem;
   font-weight: 600;
+}
+
+/* HOME MAIN */
+.home-main {
+  height: 100%;
+  padding-top: 70px;
+  background-color: #1c1c1c;
+}
+.home-main .container {
+  flex-direction: column;
+}
+.home-main .comics {
+  flex-wrap: wrap;
+}
+.home-main .comics .card {
+  width: calc(100% / 6);
+  padding: 14px;
+}
+.home-main .comics .card .comic-title {
+  margin-top: 1.3rem;
+  margin-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+.home-main .load {
+  padding: 10px 60px;
+  margin-bottom: 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: #0182f9;
 }
